@@ -1,0 +1,72 @@
+name: smart_vision_journal
+description: Smart Vision Journal - OCR + AI Summarization
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # DI
+  get_it: ^7.6.7
+
+  # Functional Error Handling
+  dartz: ^0.10.1
+
+  # State Management
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+
+  # Navigation
+  auto_route: ^9.2.2
+
+  # Local Database
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # Cache
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+    # HTTP for Web
+  http: ^1.2.2
+
+  # Settings
+  shared_preferences: ^2.3.2
+
+  # Networking
+  dio: ^5.7.0
+
+  # JSON
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # ML Kit OCR
+  google_mlkit_text_recognition: ^0.13.1
+
+  # Image Picker
+  image_picker: ^1.1.2
+
+  # Env
+  flutter_dotenv: ^5.2.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  auto_route_generator: ^9.0.0
+  mocktail: ^1.0.4
+  bloc_test: ^9.1.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
