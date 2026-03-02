@@ -1,21 +1,6 @@
 # API
- +-------------------------------------------------------------------------------+
-|                                                                               |
-|        ต้องพึ่งการใช้ GOOGLE AI STUDIO API KEY ของตัวเอง                           |
-|                                                                               |
-|        จะมีไฟล์ .env ให้ใส่ API ลงไป                                              |
-|                                                                               |
-|        และใน Lib/features/journal/data/datasources/remote_data_source.dart    |
-|                                                                               |
-|        -------> remote_data_source.dart                                       |
-|                                                                               |
-|        จะมีบรรทัดนี้ให้กรอกใส่ API ลงไปอีกที                                         |
-|                                                                               |
-|        // ใส่ KEY ใหม่ตรงนี้                                                      |
-|                                                                               |
-|        static const String _apiKey = 'your_real_key_here';                    |
-|                                                                               |
-+-------------------------------------------------------------------------------+
+- ต้องพึ่งการใช้ GOOGLE AI STUDIO API KEY ของตัวเองจะมี .env ที่จะให้ใส่ API ลงไปแล้วก็ใน Lib/features/journal/data/datasources/remote_data_source.dart -------> remote_data_source.dart จะมีบรรทัดนี้ให้กรอกใส่ API ลงไปอีกที/ // ใส่ KEY ใหม่ตรง-- นี้ static const String _apiKey = 'your_real_key_here';
+- 
 # 📔 Smart Vision Journal
 
 แอปพลิเคชันจดบันทึกอัจฉริยะ ที่รวม OCR และ AI Summarization เข้าด้วยกัน
